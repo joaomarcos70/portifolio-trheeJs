@@ -1,7 +1,7 @@
 .landing{
     position: relative;
     width: 100%;
-    height: 100vw;
+    height: auto;
     background:#D6D0CC;
     color:#fff;
     overflow: hidden;
@@ -32,18 +32,11 @@
     }
 
     .info{
+        display: flex;
+        flex-direction: column;
         position: absolute;
-        top: 20%;
-        left: 2rem;
-        width: 100%;
-        height: 60%;
-        z-index: 2;
-        color: #fff;
-        h4{
-            font-size:39px ;
-            font-family: 'Earth Orbiter', sans-serif;
-            font-weight: 700;
-        }
+        top: 30%;
+        padding-left: 32px;
         h1{
             font-size: 44px;
             font-family: 'Earth Orbiter', sans-serif;
@@ -53,7 +46,7 @@
 
     .scrollDown{
         position: absolute;
-        bottom: 3rem;
+        bottom: 12%;
         left:50%;
         transform: translate(-50%);
         &__wheel{
